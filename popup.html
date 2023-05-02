@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Temporizador</title>
+    <style>
+      body {
+        width: 250px;
+        height: 180px;
+        font-family: sans-serif;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        margin-top: 0;
+      }
+      input[type="text"] {
+        width: 50px;
+        margin-right: 5px;
+        text-align: center;
+      }
+      .timer {
+        font-size: 24px;
+        margin-top: 10px;
+      }
+      .buttons {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        margin: 0 5px;
+        padding: 5px 10px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Temporizador</h1>
+    <div class="inputs">
+      <input type="text" id="hours" placeholder="hh" maxlength="2">
+      <input type="text" id="minutes" placeholder="mm" maxlength="2">
+      <input type="text" id="seconds" placeholder="ss" maxlength="2">
+    </div>
+    <div class="timer" id="timer"></div>
+    <div class="buttons">
+      <button id="start">Iniciar</button>
+      <button id="reset">Reiniciar</button>
+      <button id="stop">Finalizar</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
