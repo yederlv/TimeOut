@@ -1,4 +1,4 @@
-# Temporizador Chrome Extension
+# Time Out Chrome Extension
 
 Una extensión para Google Chrome que te permite establecer un temporizador en segundo plano y recibir una notificación cuando se agote.
 
