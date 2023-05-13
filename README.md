@@ -2,6 +2,25 @@
 
 Una extensión para Google Chrome que te permite establecer un temporizador en segundo plano y recibir una notificación cuando se agote.
 
+```
+|__ TimeOut/
+    |__ manifest.json
+    |__ background.js
+    |__ scripts/
+    |   |__ content.js
+    |   |__ react.producciton.min.js
+    |__ popup/
+    |   |__ popup.html
+    |   |__ popup.js
+    |   |__ popup.css
+    |__ images/
+        |__ icon-16.png
+        |__ icon-32.png
+        |__ icon-48.png
+        |__ icon-128.png
+```
+[developer.chrome.com](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/)
+
 ## Instalación
 
 1. Clona o descarga este repositorio.
